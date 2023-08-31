@@ -43,6 +43,13 @@ keymap.set("n", "gr", "<cmd>lua vim.lsp.buf.references()<cr>")
 keymap.set("n", "gi", "<cmd>lua vim.lsp.buf.implementation()<cr>")
 keymap.set("n", "gh", "<cmd>lua vim.lsp.buf.hover()<cr>")
 
+-- unit testing
+keymap.set("n", "<leader>t", "<cmd>TestFile<cr>")
+keymap.set("n", "<leader>T", "<cmd>TestNearest<cr>")
+keymap.set("n", "<leader>ts", "<cmd>TestSuite<cr>")
+keymap.set("n", "<leader>tl", "<cmd>TestLast<cr>")
+keymap.set("n", "<leader>tv", "<cmd>TestVisit<cr>")
+
 -- emoji
 local opts = { noremap = true, silent = true }
 

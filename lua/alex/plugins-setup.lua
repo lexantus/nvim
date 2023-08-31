@@ -124,6 +124,9 @@ return packer.startup(function(use)
 	-- prettier
 	use("jose-elias-alvarez/null-ls.nvim")
 
+  -- unit testing
+  use("vim-test/vim-test")
+
 	-- todo list
 	use("AmeerTaweel/todo.nvim")
 
