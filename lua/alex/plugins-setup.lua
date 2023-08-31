@@ -86,6 +86,8 @@ return packer.startup(function(use)
 	use("shaunsingh/nord.nvim")
 	use("folke/tokyonight.nvim")
 	use({ "catppuccin/nvim", as = "catppuccin" })
+  use("shaunsingh/solarized.nvim")
+  use("zefei/cake16")
 
 	-- themes switcher
 	use("zaldih/themery.nvim")
